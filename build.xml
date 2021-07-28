@@ -7,7 +7,12 @@
 <echo> Hello World - Welcome to Simplilearn</echo>
 
 </target>
-
+  
+<target name="compile">
+    <mkdir dir="build/classes"/>
+    <javac srcdir="." destdir="build/classes"/>
+</target>
+  
 </project>
 
 
